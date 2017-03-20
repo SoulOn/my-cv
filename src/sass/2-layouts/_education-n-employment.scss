@@ -1,0 +1,32 @@
+.eduemp{
+  padding: 150px 0;
+  background: #ebf1f2;
+
+  .eduemp__timeline{
+    list-style-type: none;
+    padding: 0 25px 0 0 ;
+
+    .eduemp__timeline-item{
+      border-bottom: 1px solid $borderColor;
+      padding: 25px 0;
+
+      &--last{
+        border: none;
+      }
+
+      .eduemp__date{
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .eduemp__titel{
+        font-weight: 300;
+        margin: 0;
+      }
+    }
+  }
+  .eduemp_right {
+    .eduemp__desc{
+      margin-top: 5px;
+    }
+  }
+}

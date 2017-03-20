@@ -1,0 +1,89 @@
+
+.skills{
+  padding: 150px 0;
+  .sklis__header{
+    margin-bottom: 50px;
+  }
+  .skills__ability{
+    text-align: center;
+    padding: 0;
+
+
+    .skills__ability-content{
+      margin:10px;
+      padding: 50px 0;
+      background: #f3f3f3;
+      &:hover{
+        color: #fff;
+      }
+
+      &--ps{
+        &:hover{
+          background-color: $Ps;
+          border: $Ps;
+        }
+      }
+
+      &--ai{
+        &:hover{
+          background-color: $Ai;
+          border: $Ps;
+        }
+      }
+
+      &--id{
+        &:hover{
+          background-color: $Id;
+          border: $Id;
+        }
+      }
+
+      &--lr{
+        &:hover{
+          background-color: $Lr;
+          border: $Lr;
+        }
+      }
+
+      &--html{
+        &:hover{
+          background-color: $htmlColor;
+          border: $htmlColor;
+        }
+      }
+
+      &--css{
+        &:hover{
+          background-color: $cssColor;
+          border: $cssColor;
+        }
+      }
+
+      &--php{
+        &:hover{
+          background-color: $phpColor;
+          border: $phpColor;
+        }
+      }
+
+      &--js{
+        &:hover{
+          background-color: $jsColor;
+          border:  $jsColor;
+        }
+      }
+      .skills__ability-initial{
+        text-align: center;
+        margin: 0;
+      }
+      span{
+        display: block;
+      }
+      .skills__experianc{
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 600;
+      }
+    }
+  }
+}

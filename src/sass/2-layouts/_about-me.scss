@@ -1,0 +1,60 @@
+/* About me */
+
+.about{
+  padding: 150px 0;
+  background:  $lightGrey;
+  .about__header{
+    padding-left: 15px;
+  }
+  .about__intro{
+    padding-right: 50px;
+  }
+  .about__info-list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    .about__info-list-item{
+      padding: 20px 0;
+      border-top: 1px solid $borderColor;
+      b{
+        text-transform: uppercase;
+      }
+      span{
+        float: right;
+      }
+      .about__social-link{
+      padding-left: 10px;
+      text-decoration: none;
+      }
+      .about__social-link--facebook{
+
+        &:before{
+          font-family: FontAwesome;
+          content: "\f082";
+          color: $facebook;
+          font-size:18px;
+        }
+      }
+      .about__social-link--twitter{
+        &:before{
+          font-family: FontAwesome;
+          content: "\f081";
+          color: $twitter;
+          font-size:18px;
+        }
+      }
+      .about__social-link--google{
+        &:before{
+          font-family: FontAwesome;
+          content: "\f0d4";
+          color: $googleplus;
+          font-size:18px;
+        }
+      }
+    }
+    .about__info-list-item--last{
+      border-bottom: 1px solid $borderColor;
+    }
+  }
+}
